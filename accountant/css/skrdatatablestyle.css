@@ -1,0 +1,171 @@
+/* need to correct and this for table 2 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+/*start of sidenavigation bar*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: open sans;
+  background: #f9f9f9;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper .sidenav{
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 12vw;
+  height: 30vh;
+  background: #ba68c8;
+}
+
+.wrapper .sidenav ul li{
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(253, 246, 246, 0.963);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.wrapper .sidenav2{
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 12vw;
+  height: 18vh;
+  background: #ba68c8;
+}
+
+.wrapper .sidenav2 ul li{
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(253, 246, 246, 0.963);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.navihow:hover {
+  background-color: #e6aef0;
+}
+
+/*end of side navigation bar*/
+
+
+/* start topic */
+
+.wrapper3 .sidenav3{
+  position: absolute;
+  top: 105px;
+  right: 0;
+  width: 30vw;
+  height: 7vh;
+  background: #660066;
+}
+
+.wrapper3 .sidenav3 ul li{
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid rgba(235, 233, 233, 0.1);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.wrapper3  a{
+  font-size:x-large ; 
+}
+
+/* end topic */
+
+/* start print share functioning */
+
+.wrapper4 .sidenav4{
+  position: absolute;
+  top: 190px;
+  right: 0;
+  width: 6vw;
+  height: 15vh;
+  background: #660066;
+}
+
+.wrapper4 .sidenav4 ul li{
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(253, 246, 246, 0.963);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+
+/* end print share functioning */
+
+
+
+/*tabl start*/
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  
+  .center table{
+  
+  width: auto; 
+  float: right;
+  border-collapse: collapse;
+  }
+  
+  .center td , .center th{
+  padding: 15px 20px;
+  text-align: center;
+  }
+  
+  .center th{
+  background-color: #ba68c8;
+  color: #fafafa;
+  font-family: 'Open Sans',Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  }
+  
+  .center tr{
+  width: 100%;
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .center tr:nth-child(even){
+  background-color: #eeeeee;
+  }
+
+/* buttons */
+
+/* buttons */
+
+/*table end*/
+
+
+/* update and delete buttons */
+
+.update,.delete{
+  color: #fff;
+  border: solid;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.update{
+  background-color: #8a4de8;
+}
+.delete {
+  background-color: #800080; 
+}
+
+/*end of update and delete buttons */

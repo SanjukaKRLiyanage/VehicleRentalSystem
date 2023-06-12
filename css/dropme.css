@@ -1,0 +1,499 @@
+#loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  
+  
+  background: linear-gradient(-45deg, #ffcff4, #fbdeff, #dee3ff, #defff6);
+    background-size: 400% 400%;
+    animation: gradient 1.1s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  
+  
+  }
+  
+  .logos {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  
+  }
+  
+  body.loaded #loading-container {
+    display: none;
+  }
+  
+  
+  
+  
+  
+
+  
+  .slider {
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 80vh;
+     transition: all .4s ease-in-out;
+     animation: slide 10s infinite;
+  }
+  
+  .overlay {
+     color: #fff;
+     width: 100%;
+     height: 80vh;
+    
+     transition: all .2s ease-in-out;
+  }
+  
+  
+  
+  @keyframes slide {
+     0%{
+        opacity: 0;
+        background-image: url(../src/images/drop-right.png);
+        background-size: contain;
+     }
+  
+     20%{
+     opacity: 1;
+        background-image: url(../src/images/drop-right.png);
+        background-size: contain;
+     }
+     25%{
+     opacity: 0;
+        background-image: url(../src/images/drop-right.png);
+        background-size: contain;
+     }
+     25.1%{
+     opacity: 0;
+        background-image: url(../src/images/car-right.png);
+        background-size: contain;
+     }
+  
+     45%{
+     opacity: 1;
+        background-image: url(../src/images/car-right.png);
+        background-size: contain;
+     }
+     50%{
+     opacity: 0;
+        background-image: url(../src/images/car-right.png);
+        background-size: contain;
+     }
+     50.01%{
+     opacity: 0;
+        background-image: url(../src/images/van-right.png);
+        background-size: contain;
+     }
+  
+     70%{
+     opacity: 1;
+        background-image: url(../src/images/van-right.png);
+        background-size: contain;
+     }
+     75%{
+     opacity: 0;
+        background-image: url(../src/images/van-right.png);
+        background-size: contain;
+     }
+  
+     75.01%{
+     opacity: 0;
+        background-image: url(../src/images/tuk-right.png);
+        background-size: contain;
+     }
+  
+     95%{
+     opacity: 1;
+        background-image: url(../src/images/tuk-right.png);
+        background-size: contain;
+     }
+     100%{
+     opacity: 0;
+        background-image: url(../src/images/tuk-right.png);
+        background-size: contain;
+     }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @font-face {
+    font-family: 'Shrikhand';
+    src: url("fonts/Shrikhand-Regular.ttf") format("truetype");
+  }
+  
+  
+  
+  .body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  
+  
+  }
+  
+  
+  .header {
+    top: 0px;
+    z-index: 9998;
+    background-color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 98%;
+  
+  
+  background: linear-gradient(-45deg, #ffcff4, #fbdeff, #dee3ff, #defff6);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: 11vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  
+  
+  
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+  
+    height: 60px;
+  }
+  
+  .navigation {
+    list-style: none;
+    display: flex;
+     font-weight: 900;
+    justify-content: center;
+  }
+  
+  .navigation li {
+    margin-right: 5px;
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  
+  .navigation li a:hover {
+    color: #660066;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup,
+  .signin {
+    color: #fff;
+    background-color: #800080;
+    border: solid;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .signin {
+    background-color: #660066;
+  }
+  .signup {
+    background-color: #8a4de8; /* Light Purple */
+  }
+  
+  
+  hr {
+    border: none; /* Remove the default border */
+    height: 3px; /* Set the height of the horizontal rule */
+    background-color: #8a4de8; /* Set the color of the horizontal rule */
+    margin: 10px 0; /* Adjust the margin as desired */
+    width: 100%;
+  }
+  
+  
+
+   
+  
+  
+  /* Footer Still Not Complete  */
+  
+  .logof{
+    width: 200px;
+    height: 120px;
+    
+  }
+  
+  
+  section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 85vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .footer-distributed{
+    background: linear-gradient(-45deg, #b9f6fa, #e5bfff, #dac9f0, #cdf7f7);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 48vh;
+    margin-bottom: 0;
+  
+  
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 38px 20px;
+  }
+  
+  
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 35%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  lightseagreen;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 8px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 15px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  @media (max-width: 480px) {
+  
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+
+  /* Footer End */
+  
+  /* Contact US */
+  
+  
+  
+  /* Contact US END */

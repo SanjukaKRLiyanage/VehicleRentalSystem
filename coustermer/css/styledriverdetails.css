@@ -1,0 +1,25 @@
+.maintblc{
+  width: 100%;
+}
+
+.maintrc1{
+  height: 60px;
+
+}
+.maintrc2{
+  height: 540px;
+}
+
+.circle-buttonc {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    
+  }
+
+.bold-text {
+  font-weight: 800;
+}
